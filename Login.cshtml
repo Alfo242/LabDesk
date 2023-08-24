@@ -1,0 +1,20 @@
+﻿@{
+    ViewData["Title"] = "Login Page";
+    Layout = "~/Views/Shared/_LoginLayout.cshtml";
+}
+
+<form action="#" method="post">
+    <a href="@Url.Action("Admin","Admin")" class="" id="link"> </a>
+    <h3>Login</h3>
+    <p id="login">
+        System Passkey:
+    </p>
+    <button type="submit" class="enter">Enter</button>
+    <div class="rect" id="bottomCover"></div>
+    <p id="messageBoard"></p>
+        <div class="row">
+            <span class="tile" name="digit1" id="digit1"></span>
+            <span class="tile" name="digit2" id="digit1"></span>
+            <span class="tile" name="digit3" id="digit1"></span>
+        </div>
+</form>
